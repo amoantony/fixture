@@ -2,6 +2,11 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="dice.png" type="image/icon type">
+  <link href='https://fonts.googleapis.com/css?family=Kulim Park' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Crimson Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+
 <style>
 body{
   width: 100%;
@@ -64,7 +69,7 @@ body{
   transition: margin-left .5s;
   padding: 20px;
 }
-
+h1{font-family: 'Crimson Pro';}
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
@@ -76,9 +81,11 @@ color:#74ab4d;
   float:right;
   background-color: rgba(256, 256, 256, 0.8);
   border-radius:20px;
-  padding:5%;
+  padding:4%;
   margin-right:5%;
-  margin-left:25%;}
+  margin-left:25%;
+  margin-bottom:2%;
+  width:60%;}
 </style>
 </head>
 <body>
@@ -86,7 +93,7 @@ color:#74ab4d;
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="https://amoantony.github.io/home/">Home</a>
   <a href="https://amoantony.github.io/about/">About</a>
-  <a href="#"><hu>Match Fixture</hu></a>
+  <a href="#"><hu>Fixtures</hu></a>
   <a href="https://amoantony.github.io/contact/">Contact</a>
 </div>
 
@@ -96,11 +103,23 @@ color:#74ab4d;
   <p></p>
 </div>
 
-<div class="main" align="right">
+<div class="main" align="left">
 
-  <div><h1>Match Fixture</h1><br>Will be updated soon after the registration ends.</div>
+  <div><h1>Fixtures</h1><br>Will be updated soon after the registration ends.</div>
+</div>
 
+<div class="main" align="leftt">
+
+  <div><h1>Results</h1><br>Will be updated soon after the matches.</div>
+</div>
+<br>
+<br>
+<div class="main" align="left">
+
+  <div><h1>Leaderboard</h1><br>Will be updated soon after the matches</div>
+</div>
 <script>
+
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
