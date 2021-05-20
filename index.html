@@ -16,8 +16,8 @@ body{
   background-size: cover;
   background-color:#74ab4d;
 }
-h4{font-family: 'Crimson Pro';}
-p{font-family: 'Caveat';font-weight:bold;}
+ho{font-family: 'Caveat';
+font-weight:bold;}
 .sidebar {
   height: 100%;
   width: 0;
@@ -71,7 +71,9 @@ p{font-family: 'Caveat';font-weight:bold;}
   transition: margin-left .5s;
   padding: 20px;
 }
-
+td{font-family: 'Crimson Pro';}
+hk{font-family: 'Crimson Pro';font-weight:bold;font-size:20px;}
+h1{font-family: 'Crimson Pro';}
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
@@ -83,31 +85,13 @@ color:#74ab4d;
   float:right;
   background-color: rgba(256, 256, 256, 0.8);
   border-radius:20px;
-  padding:0%;
+  padding-left:5%;
+  padding-top:0%;
+  padding-bottom:5%;
   margin-right:5%;
-  margin-left:25%;}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 10px;
-  background-color:white;
-  text-align:center;
-  width:80%;
-  padding-bottom:10px;
-
-}
-a{text-decoration:none;color:black;}
-
-
-img {
-  border-radius: 10px 10px 0 0;
-}
-.good{
-display:grid;
-grid-template-columns:1fr 1fr;
-grid-gap:20px;
-margin-left:25%;}
+  margin-left:25%;
+  margin-bottom:2%;
+  width:60%;}
 </style>
 </head>
 <body>
@@ -115,8 +99,8 @@ margin-left:25%;}
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="https://amoantony.github.io/home/">Home</a>
   <a href="https://amoantony.github.io/about/">About</a>
-  <a href="https://amoantony.github.io/fixture/">Fixtures</a>
-  <a href="#"><hu>Contact</hu></a>
+  <a href="#"><hu>Fixtures</hu></a>
+  <a href="https://amoantony.github.io/contact/">Contact</a>
 </div>
 
 <div id="main">
@@ -124,45 +108,38 @@ margin-left:25%;}
   <h2></h2>
   <p></p>
 </div>
-<br>
-<div class="good">
-<div class="card">
-  <img src="woman.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>Sreelakshmi <br>Menon</b></h4>
-    <p>All-in-all</p>
-  </div>
-</div>
-<a href="https://wa.link/y4cjp2">
-<div class="card">
-  <img src="man.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>Adil <br>Rahman </b></h4>
-    <p>Treasurer <br></p>
-  </div>
-</div>
-</a>
-<a href="https://wa.link/s4icqr">
-<div class="card">
-  <img src="man.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>Muhamed <br> Shamil </b></h4>
-    <p>Convener</p>
-  </div>
-</div>
-  </a>
-  <a href="https://wa.link/v5i3h0">
-<div class="card">
-  <img src="man.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b>Amo <br>Antony</b></h4>
-    <p>Designs</p>
-  </div>
-</div>
-    </a>
+
+<div class="main" align="left">
+
+  <div><h1>Fixtures</h1>
+  <table>
+    <tr><td><hk>Day 1</hk></td></tr>
+    <tr><td><ho>Group A</ho></td><td><ho>Group B</ho></td><td><ho>Group C</ho></td><td><ho>Group D</ho></td></tr>
+    <tr><td>Midhun</td><td>Aiswarya N</td><td>Edwin</td><td>Akshaya</td></tr>
+    <tr><td>Shanoona</td><td>Awsin PS</td><td>Meenakshi</td><td>Sreelakshmi D</td></tr>
+    <tr><td>Amar</td><td>Induja</td><td>Akash</td><td>Athul Babu</td></tr>
+    <tr><td>Ashfaque</td><td>Amo</td><td>Neha M</td><td>Devanarayanan</td></tr>
+     <tr><td><hk>Day 2</hk></td></tr>
+    <tr><td><ho>Group E</ho></td><td><ho>Group F</ho></td><td><ho>Group G</ho></td><td><ho>Group D</ho></td></tr>
+    <tr><td>Musthaq</td><td>Mukesh</td><td>Ans</td><td>Sreelakshmi M</td></tr>
+    <tr><td>Jyothika</td><td>Ashma</td><td>Aswin K</td><td>Navya</td></tr>
+    <tr><td>Nisma</td><td>Shamil</td><td>Gopika</td><td>Hashim</td></tr>
+    <tr><td>Reyan</td><td>Hysha</td><td>Rishad</td><td>John</td></tr>
+
+  </table>
   </div>
 
+</>
+
+  </div>
+<br>
+<br>
+<div class="main" align="left">
+
+  <div><h1>Leaderboard</h1><br>Will be updated soon after the matches</div>
+</div>
 <script>
+
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
